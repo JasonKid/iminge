@@ -1,0 +1,40 @@
+{
+  "name": "iminge",
+  "version": "0.1.0",
+  "description": "A tool helps you cut image before uploading.",
+  "main": "dist/iminge.js",
+  "scripts": {
+    "test": "eslint **/*.js",
+    "build:dev": "webpack",
+    "build:prod": "cross-env NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonKid/iminge.git"
+  },
+  "keywords": [
+    "html5",
+    "javascript"
+  ],
+  "author": "Kayuu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JasonKid/iminge/issues"
+  },
+  "homepage": "https://github.com/JasonKid/iminge#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.1",
+    "eslint": "^4.11.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "webpack": "^3.8.1"
+  }
+}

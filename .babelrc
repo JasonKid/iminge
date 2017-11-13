@@ -1,0 +1,11 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "ie": 10
+      },
+      "modules": false
+    }]
+  ],
+  "plugins": ["transform-class-properties"]
+}
